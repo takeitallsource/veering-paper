@@ -10,7 +10,7 @@ This has obvious implications in crossing intersections, which can be of similar
 In Montreal, Canada, there are currently only 133 installed APS systems out of a total of 1875 intersections. 
 
 ## Overview
-n this work, we present a Learning from Demonstration (LfD) approach to tackle the veering problem at intersections. Contrary to previous methods, our solution does not presume the existence of particular features in crosswalks. Instead, the LfD framework allows us to transfer the abilities of sighted individuals to an intelligent assistive agent. 
+In this work, we present a Learning from Demonstration (LfD) approach to tackle the veering problem at intersections. Contrary to previous methods, our solution does not presume the existence of particular features in crosswalks. Instead, the LfD framework allows us to transfer the abilities of sighted individuals to an intelligent assistive agent. 
 
 We started by recollecting  215 demonstrative videos of intersection crossings executed by sighted individuals ("the experts"). We sampled these videos at two frames per second and labeled each frame to gather the experts' recommended actions. Next, we applied a policy derivation technique to extract the optimal behaviour using Convolutional Neural Networks (CNNs). We use the concepts of transfer learning to re-train four CNN models, pre-trained on the Imagenet dataset, to predict the optimal action as chosen by an expert. 
 
